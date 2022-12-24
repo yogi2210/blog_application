@@ -30,3 +30,92 @@ body{
     border-radius: 7px;
 }
 
+/*  create post page */
+
+.create-post-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cp-container {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: black;
+  width: 500px;
+  height: auto;
+  padding-bottom: 10px;
+  color:white;
+
+}
+
+.inputGp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 5px 0;
+}
+.inputGp label {
+  color: white;
+  font-size: 25px;
+}
+.inputGp input{
+  width: 400px;
+    height: 40px;
+    font-size: 25px;
+    color: black;
+    border-radius: 8px;
+    padding-left: 5px;
+}
+.inputGp textarea{
+  width: 400px;
+    /* height: 40px; */
+    font-size: 25px;
+    color: black;
+    border-radius: 8px;
+    padding-left: 5px;
+}
+
+.create-post-page button{
+  width: 410px;
+    padding: 2px 5px;
+    background-color: white;
+    font-size: 25px;
+    margin-top: 9px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* home page */
+
+.home-page{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post {
+  width: 75%;
+  background-color: #d6e0dd;
+  border-radius: 10px;
+  padding: 0 8px;
+  margin-top: 22px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.postHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+button {
+  font-size: 25px;
+  background-color: #d6e0dd;
+  border: none;
+}
